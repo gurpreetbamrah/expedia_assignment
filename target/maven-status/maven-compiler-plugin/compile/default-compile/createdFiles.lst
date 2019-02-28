@@ -1,5 +1,0 @@
-model/api/JsonHandler.class
-model/dbutil/DBModel.class
-model/api/RequestModel.class
-model/locatorhandler/WebElementLocator.class
-model/uicomponenthandler/OpenPage.class

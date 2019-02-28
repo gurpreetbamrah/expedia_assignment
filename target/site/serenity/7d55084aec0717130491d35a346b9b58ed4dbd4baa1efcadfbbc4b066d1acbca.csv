@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As an end user of Expedia website i want to search the cheapest flight from my source to destination","Search cheapest flight from source to destination","SUCCESS","2019-02-28T10:18:58.152+05:30","0.0","40.39"
-"Verify records are successfully captured into database","Verify records into database","SUCCESS","2019-02-28T10:18:51.720+05:30","0.0","1.04"
-"As a End user of the api I want to verify the json response","Verify the api gives response as per the request parameters","SUCCESS","2019-02-28T10:18:54.090+05:30","0.0","4.01"
