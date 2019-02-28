@@ -1,0 +1,7 @@
+scenariosteps/HomePageSteps.class
+scenariosteps/FlightInformationPageSteps.class
+scenariosteps/FlightSearchPageSteps.class
+scenariosteps/EndUserSteps.class
+scenariosteps/DBSteps.class
+scenariosteps/APISteps.class
+scenariosteps/TestSuiteRunner.class

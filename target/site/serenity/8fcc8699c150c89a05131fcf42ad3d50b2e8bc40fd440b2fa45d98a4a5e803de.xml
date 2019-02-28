@@ -1,0 +1,89 @@
+<acceptance-test-run title="Search cheapest flight from source to destination" name="Search cheapest flight from source to destination" description="" steps="10" successful="10" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="40394" timestamp="2019-02-28T10:18:58.152+05:30" session-id="df54982bf0e18c508a74db0c678577ec">
+  <user-story id="as-an-end-user-of-expedia-website-i-want-to-search-the-cheapest-flight-from-my-source-to-destination" name="As an end user of Expedia website i want to search the cheapest flight from my source to destination" path="FlightSearch.feature"/>
+  <tags>
+    <tag name="As an end user of Expedia website i want to search the cheapest flight from my source to destination" type="feature"/>
+    <tag name="expedia_assignment" type="tag"/>
+    <tag name="ui" type="tag"/>
+    <tag name="ui_smoke" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>source</header>
+      <header>destination</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>BOM</value>
+        <value>DEL</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {source=BOM, destination=DEL}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="4e847456b6996c99b14afd22e2865afc.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="12867">
+      <screenshots>
+        <screenshot image="28b7bdf09d41e94599cde2c2c2ee9f5c.png"/>
+      </screenshots>
+      <description>Given the user is on the expedia website home page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1959">
+      <screenshots>
+        <screenshot image="d8cd22183237623c82314d114a05ad66.png"/>
+      </screenshots>
+      <description>When user clicks on flight icon</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1920">
+      <screenshots>
+        <screenshot image="afb76a5406b03a7dbceda45dfba785a7.png"/>
+      </screenshots>
+      <description>And user select flight type as one way</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1874">
+      <screenshots>
+        <screenshot image="0a3d097be8ca5d7ec33349fb3e2edf3c.png"/>
+      </screenshots>
+      <description>And user enter the source BOM</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1401">
+      <screenshots>
+        <screenshot image="0180e5b9e20ec847e84fc7431ec89ab7.png"/>
+      </screenshots>
+      <description>And user enter the destination DEL</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2355">
+      <screenshots>
+        <screenshot image="c9da9e3bebaa4bc5992f96c0e265813e.png"/>
+      </screenshots>
+      <description>And user selects the date of journey</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="7153">
+      <screenshots>
+        <screenshot image="18572df619ac30642473f099c6235bcf.png"/>
+      </screenshots>
+      <description>Then user clicks on search button</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="900">
+      <screenshots>
+        <screenshot image="e80435fa712950d0ea1738921c6e3a26.png"/>
+      </screenshots>
+      <description>Then user should see list of flights with the cheapest on the top</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1400">
+      <screenshots>
+        <screenshot image="4e847456b6996c99b14afd22e2865afc.png"/>
+      </screenshots>
+      <description>Then I select the cheapest flight</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="8157">
+      <screenshots>
+        <screenshot image="4e847456b6996c99b14afd22e2865afc.png"/>
+      </screenshots>
+      <description>And I verify the price under trip summary</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
